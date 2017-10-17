@@ -1,0 +1,31 @@
+/*css document */
+ul{
+	list-style-type: none;
+}
+
+ul ul {
+	display: none;
+}
+li{
+	color: gray;
+}
+
+ul li:hover > ul {
+	display: block;                                          /* some1 watched inception 2 many goddamn times -_- */
+	}
+
+a, a:visited {
+    text-decoration:none;
+	color: black;                                                 
+}
+
+
+a:hover{
+	text-decoration: underline;
+}
+.items{
+	color: gray;
+}
+.items a:visited{
+	color: gray;
+}

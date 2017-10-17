@@ -1,0 +1,39 @@
+/* CSS Document */
+body{
+background-color:rgb(94, 101, 99) ;       /* didnt like how the grays which could be used overlap so i used a specific one */
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;      /*wasnt sure if the font was different or now so i used arial*/
+}
+span.dot{
+    font-size: 60px;          /*tried using some nice functions to make a green dot but they did not work great in a table so i just make a big green badass dot */
+    color: green;
+}
+tr{
+    height: 30px;
+}
+td{
+    width: 170px;
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gray{
+    color: lightgray;
+}
+.red{
+    font-size: 16px;        /* im not sure if its cuz its a picture but the red letters used in the asignment looke larger so i made mine larger */
+    color: red;
+}
+.yellow{
+    color: #E9E681;
+}
+.white{
+    color: white;
+}
+.orange{
+    color: orange;
+}

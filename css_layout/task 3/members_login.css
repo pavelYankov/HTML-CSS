@@ -1,0 +1,64 @@
+/* css document */
+body{
+    font-family: 'Slabo 27px', serif;
+}
+header{
+    padding: 20px;
+    height: 110px;
+    background-color: #252526;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+article{
+    height: 50%;
+    -moz-box-shadow:0px -2px 7px #121213;
+	-webkit-box-shadow: 0px -2px 5px #121213;
+	box-shadow: 0px -4px 15px #121213;
+    padding: 5%;
+    background-color: #333335;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.monitor{
+    float: left;
+    height: 100px;
+}
+.button{
+    height: 100px;
+    float: right;
+    margin-right: 50px;
+}
+div{
+    display: inline-block;
+}
+.login{
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    width: 250px;
+    margin:0;
+}
+input{
+    display: inline-block;
+    top:0;
+    height: 30px;
+    font-size: 20px;
+    margin: 30px;
+}
+h1{
+    font-size: 40px;
+    color: #EAE112;
+}
+a{
+    color: grey;
+    font-size: 22px;
+    text-decoration: none;
+}
+span{
+    font-size: 22px;
+    color: white;
+}
+p{
+    font-size: 22px;
+    color: gray;
+}

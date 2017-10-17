@@ -1,0 +1,31 @@
+/* CSS Document */
+table {
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+table td + td { 
+    border-left:1px solid gray; } /* i made a table but on the picture there didnt seem to be any borders between rows so i made a border only between cols */
+img{
+    height: 10px;
+    width: 15px;
+}
+tr:nth-child(odd) {
+    background-color: #D3D5D5;
+    }
+tr.white{
+    background-color: limegreen;
+    color: white;
+}
+td{
+    height:  24px;
+}
+.name{
+    width: 150px;
+}
+.city{
+    width: 100px;
+}
+.contry{
+    width: 120px;
+}

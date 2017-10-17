@@ -1,0 +1,155 @@
+/*CSS DOCUMENT*/
+
+
+div {
+    border: 1px solid red;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.body {
+    width: 900px;
+    height: 60px;
+    position: relative;
+    background-color: red;
+    border-radius: 60px;
+    }
+
+.nested {
+    background-color: black;
+    position: absolute;
+    vertical-align: middle;
+    border-color: red;
+}
+
+.d1 {
+    width: 103px;
+    height: 59px;
+    right: 0;
+    border-radius: 60px;
+}
+
+.d2 {
+    width: 100px;
+    height: 56px;
+    right: 54px;
+    border-radius: 58px;
+}
+
+.d3 {
+    width: 96px; 
+    height: 53px;
+    right: 52px;
+    border-radius: 56px;
+}
+
+.d4 {
+    width: 92px;
+    height: 50px;
+    right: 50px;
+    border-radius: 54px;
+}
+
+.d5 {
+    width: 88px;
+    height: 47px;
+    right: 48px;
+    border-radius: 52px;
+}
+
+.d6 {
+    width: 85px;
+    height: 44px;
+    right: 46px;
+    border-radius: 50px;
+}
+    
+.d7 {
+    width: 82px;
+    height: 41px;
+    right: 44px;
+    border-radius: 48px;
+}
+
+.d8 {
+    width: 80px;
+    height: 38px;
+    right: 42px;
+    border-radius: 46px;
+}
+
+.d9 {
+    width: 72px;
+    height: 35px;
+    right: 40px;
+    border-radius: 44px;
+}
+
+.d10 {
+    width: 70px;
+    height: 31px;
+    right: 38px;
+    border-radius: 42px;
+}
+
+.d11 {
+    width: 68px;
+    height: 28px;
+    right: 36px;
+    border-radius: 40px;
+}
+
+.d12 {
+    width: 66px;
+    height: 25px;
+    right: 34px;
+    border-radius: 38px;
+}
+
+.d13 {
+    width: 50px;
+    height: 23px;
+    right: 32px;
+    border-radius: 36px;
+}
+
+.d14 {
+    width: 47px;
+    height: 20px;
+    right: 30px;
+    border-radius: 34px;
+}
+
+.d15 {
+    width: 42px;
+    height:17px;
+    right: 28px;
+    border-radius: 32px;
+}
+
+.d16 {
+    width: 40px;
+    height: 14px;
+    right: 26px;
+    border-radius: 30px;
+}
+
+.d17 {
+    width: 36px;
+    height: 12px;
+    right: 24px;
+    border-radius: 28px;
+}
+
+.d18 {
+    width: 34px;
+    height: 10px;
+    right: 22px;
+    border-radius: 24px;
+}
+.d19{
+    width: 26px;
+    height: 8px;
+    right: 21px;
+    border-radius: 22px;
+}

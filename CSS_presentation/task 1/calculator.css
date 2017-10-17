@@ -1,0 +1,118 @@
+/* CSS Document*/
+body {
+    font: 14px/22px Arial, Helvetica, sans-serif;     /*the amount of times this broke cuz i had not put a min/max limit to the font size -_- */
+}
+ul {
+    padding:2px;
+    display: inline;
+}
+li{
+    display:inline-block;
+    list-style-type: none;
+    padding-right: 8px;
+}
+
+li:first-letter {
+    text-decoration:underline;
+}
+.border {
+    border:1px darkgrey solid;
+    border-radius: 3px;
+    padding-right: 10px;
+}
+button{
+    width: 40px;
+    height: 30px;
+    background: -webkit-linear-gradient(#EBF1F7 ,#C0D8F8);
+    background:    -moz-linear-gradient(#EBF1F7,#C0D8F8);
+    background:      -o-linear-gradient(#EBF1F7,#C0D8F8);
+    background:         linear-gradient(#EBF1F7,#C0D8F8,90%,10%);
+    border: 1px solid #575C5F;
+    border-radius: 2px;
+    color: #051246;
+}
+.number{
+    width: 40px;
+    height: 30px;
+    background: -webkit-linear-gradient(#EBF1F7 ,#DFE9F4);
+    background:    -moz-linear-gradient(#EBF1F7,#DFE9F4);
+    background:      -o-linear-gradient(#EBF1F7,#DFE9F4);
+    background:         linear-gradient(#EBF1F7,#DFE9F4);
+    border: 1px solid #575C5F;
+    border-radius:2px;
+}
+#long{
+    width: 86px;
+}
+#tall{
+    height: 64px;
+}
+button:disabled {
+    background:#DBE7F6;
+    border: 1px solid darkgrey;
+    border-radius:3px;
+}
+#options{
+    width:438px;
+    background: -webkit-linear-gradient(#F1F7FA, #C7D9E3) ;
+    background:    -moz-linear-gradient(#F1F7FA, #C7D9E3);
+    background:      -o-linear-gradient(#F1F7FA, #C7D9E3);
+    background:         linear-gradient(#F1F7FA, #C7D9E3);
+    padding-left: 10px;
+    border:1px solid;
+    border-bottom:1px solid darkgray;
+    
+}
+button:hover:enabled, #number:hover {
+    background: -webkit-linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+    background:    -moz-linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+    background:      -o-linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+    background:         linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+}
+#screen {
+    width:430px;
+    height:25px;
+    border:1px darkgray solid;
+    border-radius:3px;
+    margin-bottom:5px;
+    font-size:22px;
+    text-align:right;
+    padding-top:20px;
+    padding-right:5px;
+    background: -webkit-linear-gradient(#E6EFFB, #FFFFFF);
+    background:    -moz-linear-gradient(#E6EFFB, #FFFFFF);
+    background:      -o-linear-gradient(#E6EFFB, #FFFFFF);
+    background:         linear-gradient(#E6EFFB, #FFFFFF);
+}
+
+#binary {
+    width:424px;
+    border:1px darkgray solid;
+    border-radius:5px;
+    margin-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    font-family: Consolas, monospace;
+}
+#binary td {
+    line-height:100%;
+    padding-left:10px;    
+    padding-right:10px;
+}
+#binary tr:nth-of-type(2n) {
+    padding:10px;
+    color: darkgray;
+}
+#binary tr  td:last-child {
+    text-align:right;
+}
+#everything {
+    padding:5px;
+    width:438px;
+    background: -webkit-linear-gradient(#ECF4F8,#D0DDEE,#ECF4F8);
+    background:    -moz-linear-gradient(#ECF4F8,#D0DDEE,#ECF4F8);
+    background:      -o-linear-gradient(#ECF4F8,#D0DDEE,#ECF4F8);
+    background:         linear-gradient(#ECF4F8,#D0DDEE,#ECF4F8);
+    border:1px solid;
+    border-top:none;
+}

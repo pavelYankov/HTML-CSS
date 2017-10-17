@@ -1,0 +1,103 @@
+/*css document*/
+.upper, nav , .outer{
+    display: inline-block;
+}
+body{
+    position: relative;
+    background-color: #2F6266;
+}
+.main{
+    position: absolute;                                               /*tried to make the page almost entirely with % didnt work out 2 well :D */
+    display: block;
+    width: 72%;
+    left:15%;
+    border: 1px solid deepskyblue;
+    border-radius: 10px;
+}
+iframe{
+    top: 25%;
+    left:40%;
+    position: absolute;
+    height: 70%;
+    width: 58%;
+}
+div{ 
+    width: 120px;
+    height:50px;
+}
+div.outer{
+        background-color: gray;
+}
+.inner, .inhead{
+    text-align: center;
+    position: absolute;
+    display: table;
+}
+a{
+    position: relative;
+    display: table-cell; 
+    vertical-align: middle; 
+    text-decoration: none;
+    color: lightgray;
+}
+.upper{
+    margin: 2% 0 5% 2%;
+    color: white;
+}
+article{
+    position: relative;
+    width: 42%;
+}
+.line{
+    position: relative;
+    width: 95%;
+    height: 1px;
+    background-color: gray;
+}
+nav{
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+p{
+  display: table-cell; 
+  vertical-align: middle; 
+}
+.selected, .paragraph{
+ width: 85%;
+ height: 75px;
+ padding-left: 10%;
+}
+a:hover{
+    text-decoration: underline;
+}
+.inheah p{
+    color: black;
+}
+.novinite{   
+    display: table-cell; 
+    vertical-align: middle;
+}
+.selected{
+    color: white;
+    position: absolute;
+    width: 35%;
+    background-color: #38C5B4;
+    position: relative;
+    display: table;
+    padding-left: 5%;
+}
+.selected p{
+    position: absolute;
+    display: table-cell; 
+    vertical-align: middle; 
+}
+.paragraph:hover{
+    background-color: #1B454F;
+}
+.paragraph{
+    color: darkgray;
+    display: flex;                                              /*flex thingy kinda fucks with trying to align in vertically and horzontally so i couldnt use it anywhere */
+    flex-direction: column;
+    justify-content: center;
+    resize: vertical;
+}

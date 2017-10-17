@@ -1,0 +1,41 @@
+/* CSS Document */
+body{
+    font-size: 20px;
+    background-color: #8C8E87;
+}
+h1{ 
+    font-size: 36px;
+    color: #E8E486;
+}
+.heading{
+    font-size: 56px;
+    text-align: center;
+}
+.postinfo{
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+.pagefooter{
+    text-align: center;
+}
+.current{
+    background-color: #A4A69D;
+}
+a.aligned{
+    text-decoration: underline;
+}
+a{
+    color: white;
+}
+a.blackletters{
+    color: black;
+}
